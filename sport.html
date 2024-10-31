@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+    <script src="tailwind.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        roboto: ['Roboto', 'sans-serif'],
+                        robotoCondensed: ['Roboto Condensed']
+                    },
+                    height: {
+                        'height100': '100dvh',
+                    },
+                    colors: {
+                        basic: '#0F58FB',
+                        basicText: '#152347',
+                        accent: '#AD00FF',
+                        medium: '00B2FF',
+                        lightText: '#00FFF0',
+                        white: '#FFFFFF',
+                    },
+                    boxShadow: {
+                        'custom': '0rem 0.5rem 1.35rem 0rem rgba(202, 195, 245, 0.17)',
+                    },
+                    backgroundImage: {
+                        'custom-gradient': 'linear-gradient(220.04deg, rgb(0, 179, 255) 29.377%, rgb(173, 0, 255) 172.827%)',
+                    },
+
+                },
+            },
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <!-- <header id="header"
+        class="font-roboto z-50 flex justify-center fixed top-0 left-0 w-full transition-all duration-500 ease-linear text-basic py-[2.3rem] shadow-custom">
+        <nav class="flex justify-between w-[115rem] mx-auto">
+            <a class="flex items-center justify-center" href="">
+                <img class="w-[6.39rem] h-[4.37rem]" src="./assets/logo_blue.svg" alt="">
+            </a>
+            <div class="items-center justify-between hidden md:flex">
+                <ul class="flex gap-[1.263rem]">
+                    <li class="flex gap-[0.7rem] items-center">
+                        <svg width="5.651855" height="4.960571" viewBox="0 0 5.65186 4.96057" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                Created with Pixso.
+                            </desc>
+                            <defs />
+                            <path id="Polygon 1"
+                                d="M3.04 4.83C2.94 5 2.7 5 2.61 4.83L0.03 0.37C-0.07 0.2 0.05 0 0.24 0L5.4 0C5.59 0 5.71 0.2 5.61 0.37L3.04 4.83Z"
+                                fill="#0F58FB" fill-opacity="1.000000" fill-rule="nonzero" />
+                        </svg>
+                        <a href="">Продукция</a>
+                    </li>
+                    <li class=""><a href="">Услуги</a></li>
+                    <li class=""><a href="">Проекты</a></li>
+                    <li class=""><a href="">О нас</a></li>
+                    <li class=""><a href="">Контакты</a></li>
+                </ul>
+                <ul class="flex gap-10 pr-[8.1rem] pl-[2.7rem]">
+                    <li class="flex flex-col">
+                        <span class="text-xs">Почта</span>
+                        <a class="font-semibold" href="mailto:sale@led-sport.ru">sale@led-sport.ru</a>
+                    </li>
+                    <li class="flex flex-col">
+                        <span class="text-xs">Бесплатная горячая линия</span>
+                        <a class="font-semibold" href="tel:+78007776540">+7 (800) 777-65-40</a>
+                    </li>
+                </ul>
+                <button id="openPopupButton" class="text-white rounded py-[0.80rem] px-[1.88rem] bg-custom-gradient">
+                    Заказать звонок
+                </button>
+            </div>
+        </nav>
+
+
+        <div id="menuSmall"
+            class="fixed transition-opacity bg-blueCube duration-500 ease-linear w-full h-height100 hidden  text-white flex-col">
+            <ul class="flex  gap-10 flex-col h-2/3 pt-[12rem] items-center text-5xl">
+                <li class=""><a href="">Продукция</a></li>
+                <li class=""><a href="">Услуги</a></li>
+                <li class=""><a href="">Проекты</a></li>
+                <li class=""><a href="">О нас</a></li>
+                <li class=""><a href="">Контакты</a></li>
+            </ul>
+            <div class="h-1/3  bg-[#0053ED]">
+                <ul class="h-full w-full flex flex-col justify-start px-10 py-5 gap-10">
+                    <li class="flex flex-col">
+                        <span class="">Почта</span>
+                        <a class="" href="mailto:sale@led-sport.ru">sale@led-sport.ru</a>
+                    </li>
+                    <li class="flex flex-col">
+                        <span class="">Бесплатная горячая линия</span>
+                        <a class=" " href="tel:+78007776540">+7 (800) 777-65-40</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header> -->
+    <div class="flex w-[1200px] mx-auto">
+        <h2 class="font-robotoCondensed text-[3.5rem] uppercase italic text-basic font-medium tracking-[-0.03rem]">Как мы работаем?</h2>
+    </div>
+
+    <div class="flex w-[1200px] mx-auto text-basicText">
+        <div class="flex flex-row">
+            <div class="text-9xl font-bold relative">
+                01
+                <div class="absolute top-0 w-[30rem] right-0">
+                    <img src="./assets/services/img_1.png" alt="">
+                </div>
+            </div>
+
+            <div class="flex flex-col pt-16">
+                <h3 class="text-[3.1rem] font-bold uppercase italic font-robotoCondensed tracking-[0.02rem]">Проектирование</h3>
+                <p class="text-base pt-[2.3rem] leading-[1.15rem] w-[38rem] font-medium">Проектирование светодиодного
+                    оборудования для спортивных сооружений — это комплексная разработка и
+                    создание с нуля стандартных и индивидуальных светодиодных экранов под конкретные потребности
+                    клиента.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer id="contacts" class="bg-basic text-white mt-[1000px] pt-7">
+        <div class="flex w-[1200px] justify-between mx-auto gap-8 leading-6 pb-[3rem]">
+            <ul class="flex flex-col gap-[1.40rem] flex-1">
+                <li>
+                    <a class="" href="">
+                        <img class="w-[7.76rem] " src="./assets/logo_white.svg" alt="логотип led-sport">
+                    </a>
+                </li>
+                <li class="flex flex-col">
+                    <span class="text-xs">Почта</span>
+                    <a class="font-semibold" href="mailto:sale@led-sport.ru">sale@led-sport.ru</a>
+                </li>
+                <li class="flex flex-col">
+                    <span class="text-xs">Бесплатная горячая линия</span>
+                    <a class="font-semibold" href="tel:+78007776540">+7 (800) 777-65-40</a>
+                </li>
+            </ul>
+
+            <ul class="flex flex-col flex-1 text-xl gap-[1.2rem] font-semibold">
+                <li class=""><a href="">Продукция</a></li>
+                <li class=""><a href="">Услуги</a></li>
+                <li class=""><a href="">Проекты</a></li>
+                <li class=""><a href="">О нас</a></li>
+                <li class=""><a href="">Контакты</a></li>
+            </ul>
+
+            <ul class="flex flex-col flex-1 text-xl gap-[1.2rem] ">
+                <li class=""><a href="">Видеокуб</a></li>
+                <li class=""><a href="">Видеокольцо</a></li>
+                <li class=""><a href="">LED фасция</a></li>
+                <li class=""><a href="">Видеоборты</a></li>
+                <li class=""><a href="">Система видеогол</a></li>
+                <li class=""><a href="">LED экраны для
+                        ситуационных центров</a></li>
+            </ul>
+
+            <ul class="flex flex-col flex-1 text-xl gap-[1.2rem] ">
+                <li class=""><a href="">Видеопилоны</a></li>
+                <li class=""><a href="">LED экраны над выходом с трибун</a></li>
+                <li class=""><a href="">Спортивное
+                        LED табло для ФОК</a></li>
+                <li class=""><a href="">Видеостены</a></li>
+                <li class=""><a href="">Прокатные
+                        LED экраны</a></li>
+            </ul>
+
+            <ul class="flex flex-col flex-1 text-xl gap-[1.2rem] ">
+                <li class=""><a href="">LED экраны
+                        для зон фудкорта</a></li>
+                <li class=""><a href="">Профессиональный
+                        свет и звук</a></li>
+                <li class=""><a href="">Медиафасады</a></li>
+                <li class=""><a href="">Билборды</a></li>
+                <li class=""><a href="">Мобильные <br>
+                        LED экраны</a></li>
+            </ul>
+        </div>
+
+        <div class="w-[1200px] mx-auto">
+            <hr class="border-t-1 border-white">
+            <div class="flex justify-between py-9 text-xs">
+                <div>Политика обработки персональных данных</div>
+                <div>2024 LEDsport (Россия). Все права защищены.</div>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
