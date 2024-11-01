@@ -18,6 +18,8 @@ tailwind.config = {
             },
             boxShadow: {
                 'custom': '0rem 0.5rem 1.35rem 0rem rgba(202, 195, 245, 0.17)',
+               
+
             },
             backgroundImage: {
                 'custom-gradient': 'linear-gradient(220.04deg, rgb(0, 179, 255) 29.377%, rgb(173, 0, 255) 172.827%)',
